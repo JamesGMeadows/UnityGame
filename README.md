@@ -8,6 +8,10 @@ bytes are floats of 4 bytes each. Each of the 3 floats corresponds to a position
 
 Once all 14 bytes are read, the listener knows it can start on the next packet.
 
+The implementation is a packet system built on top of the Microsoft C# async client / server example.
+
+https://docs.microsoft.com/en-us/dotnet/framework/network-programming/asynchronous-server-socket-example
+
 
 # Functionality
 The client server currently sends position + rotation updates as well as damage and entity status updates such as opening doors.
